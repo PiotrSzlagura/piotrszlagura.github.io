@@ -1,0 +1,56 @@
+.welcome-screen-banner
+{
+	position: relative;
+
+	min-height: 450px;
+
+	background: url(../img/mechanik.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+
+	.welcome-screen-wrapper
+	{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+
+		background: rgba(0, 0, 0, 0.5);
+
+		.welcome-screen-content
+		{
+			position: absolute;
+			top: 50%;
+			left: 0;
+			width: 100%;
+
+			text-align: center;
+
+			@include transform(translateY(-50%));
+
+			h1
+			{
+				text-transform: uppercase;
+				color: white;
+				margin-bottom: 25px;
+				text-align: center;
+				font-weight: bolder;
+			}
+
+			p
+			{
+				color: #CCC;
+				line-height: 1.7;
+				margin-bottom: 35px;
+				font-weight: 300;
+			}
+
+			button
+			{
+				color: white;
+				background: $base-color-blue;
+				border: none;
+				padding: 10px 20px;
+			}
+		}
+	}
+}

@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Żarówki samochodowe nocar</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+  <link rel="stylesheet" type="text/css" href="css/owl.theme.css">
+  <link rel="stylesheet" type="text/css" href="css/owl.transitions.css">
+
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top nocar-navbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><img src="img/logo-fixed.png"></a>
+    </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="nocar-navbar-information-box hidden-xs">
+          <a href="#!">
+            <div class="icon-wrapper">
+              <img src="img/icons/phone-call.png" class="navbar-icon" alt="">
+            </div>
+            <div class="information-wrapper">
+              <p><strong>Zadzwoń do nas</strong></p>
+              <p>601 093 093</p>
+            </div>
+          </a>
+        </li>
+        <li class="nocar-navbar-information-box visible-xs pull-left">
+          <a href="#!">
+            <div class="icon-wrapper">
+              <i class="fa fa-bars"></i>
+            </div>
+          </a>
+        </li>
+        <li class="nocar-navbar-information-box hidden-xs">
+          <a href="#!">
+            <div class="icon-wrapper">
+              <img src="img/icons/sports-car.png" class="navbar-icon" alt="">
+            </div>
+            <div class="information-wrapper">
+              <p><strong>Audi A3 8P</strong></p>
+              <p>1.9 TDI 2003-200</p>
+            </div>
+          </a>
+        </li>
+        <li class="dropdown nocar-navbar-information-box cart-wrapper">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            <div class="icon-wrapper">
+              <img src="img/icons/online-shopping-cart.png" class="navbar-icon" alt="">
+              <span class="shopping-cart-items-count">
+                3
+              </span>
+            </div>
+            <div class="information-wrapper hidden-xs">
+              <p><strong>Twój koszyk</strong></p>
+              <p>1199,99 zł</p>
+            </div>
+          </a>
+          <ul class="dropdown-menu">
+            <li>a</li>
+          </ul>
+        </li>
+        <li class="dropdown nocar-navbar-search hidden-xs">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            <i class="fa fa-search"></i>
+          </a>
+          <ul class="dropdown-menu">
+            <li>
+              <input type="text" name="search" placeholder="Szukaj">
+              <button class="navbar-search-button">Szukaj</button>
+            </li>
+          </ul>
+        </li>
+      </ul>
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="welcome-screen-banner">
+  <div class="welcome-screen-wrapper">
+    <div class="welcome-screen-content">
+      <div class="container">
+        <h1 class="text-center">Żarówki samochodowe NOCAR</h1>
+        <p class="text-center">Lorem ipsum dolor sit amet sagittis lorem. Nunc dictum arcu. <br> Vestibulum ante ipsum enim, euismod ut, dolor. Donec nec nunc.</p>
+
+        <button class="welcome-screen-button">Zobacz więcej &raquo;</button>
+      </div>
+    </div> 
+  </div>
+</div>
+
+<div class="nocar-partfinder-wrapper">
+  <div class="container">
+    <div class="nocar-partfinder">
+      <div class="dropdown nocar-partfinder-select">
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span class="description">Marka</span>
+          <span class="caret pull-right"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+          <li id="nocar-carfinder-cars">
+            <input type="text" class="search" placeholder="Wpisz szukaną nazwę">
+            <ul class="list" id="nocar-carfinder-cars-list">
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="dropdown nocar-partfinder-select">
+        <button class="btn btn-default dropdown-toggle disabled" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span class="description">Model</span>
+          <span class="caret pull-right"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+          <li id="nocar-carfinder-models">
+            <input type="text" class="search" placeholder="Wpisz szukaną nazwę">
+            <ul class="list" id="nocar-carfinder-models-list">
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="dropdown nocar-partfinder-select">
+        <button class="btn btn-default dropdown-toggle disabled" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span class="description">Silnik</span>
+          <span class="caret pull-right"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
+          <li id="nocar-carfinder-engines">
+            <input type="text" class="search" placeholder="Wpisz szukaną nazwę">
+            <ul class="list" id="nocar-carfinder-engines-list">
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <input type="hidden" name="car-brand">
+      <input type="hidden" name="car-model">
+      <input type="hidden" name="car-engine">
+
+      <button class="btn btn-default button-send-form">Wyszukaj</button>
+    </div>
+  </div>
+</div>
+
+<div class="nocar-discounts">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4 col-xs-12">
+        <div class="nocar-discount-wrapper">
+          <div class="nocar-discount-box">
+            <div class="nocar-discount-content">
+              <h2>-1000zł</h2>
+              <p>na zakup powyżej 1000zł</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-xs-12">
+        <div class="nocar-discount-wrapper">
+          <div class="nocar-discount-box">
+            <div class="nocar-discount-content">
+              <h2>-100%</h2>
+              <p>na zakup powyżej 1000zł</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-xs-12">
+        <div class="nocar-discount-wrapper">
+          <div class="nocar-discount-box">
+            <div class="nocar-discount-content">
+              <h2>-100%</h2>
+              <p>na zakup powyżej 1000zł</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="nocar-product-tabs">
+  <div class="nocar-tabs-buttons hidden-xs">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <div class="nocar-tabs-button"><a data-nocar-product-tab="1" class="nocar-product-tab-link active" href="#!">Oleje i chemia</a></div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <div class="nocar-tabs-button"><a data-nocar-product-tab="2" class="nocar-product-tab-link" href="#!">Oświetlenie</a></div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <div class="nocar-tabs-button"><a data-nocar-product-tab="3" class="nocar-product-tab-link" href="#!">Akcesoria</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h3 class="text-center visible-xs mobile-tabs-header">Kategorie produktów</h3>
+  <div class="nocar-tabs-contents">
+    <div class="container">
+      <div data-nocar-product-content="1" class="open">
+        <div class="row">
+          <a href="javascript:void(0)" class="npt-m-toggle visible-xs">Oleje i chemia <i class="fa fa-angle-down"></i></a>
+          <div class="npt-m-content">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+              <h5><a href="javascript:void(0)" class="npt-m-toggle">Oleje <i class="fa fa-angle-down visible-xs-inline"></i></a></h5>
+              <ul class="nocar-tabs-list npt-m-content">
+                <li>
+                  <a class="nocar-tabs-list npt-m-toggle always-dropdown" href="#!">Oleje samochodowe <span class="caret hidden-xs"></span><i class="fa fa-angle-down visible-xs-inline"></i></a>
+                  <ul class="nocar-tabs-list npt-m-content always-dropdown">
+                    <li>
+                      <a href="#!">Oleje samochodowe</a>
+                    </li>
+                    <li>
+                      <a href="#!">Oleje samochodowe</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#!">Oleje samochodowe</a>
+                </li>
+                <li>
+                  <a href="#!">Oleje samochodowe</a>
+                </li>
+                <li>
+                  <a href="#!">Oleje samochodowe</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
+              <h5><a href="javascript:void(0)" class="npt-m-toggle">Chemia samochodowa <i class="fa fa-angle-down visible-xs-inline"></i></a></h5>
+              <div class="npt-m-content">
+                <div class="row">
+                  <div class="col-sm-6 col-xs-12">
+                    <ul class="nocar-tabs-list">
+                      <li><a href="#!">Oleje samochodowe</a></li>
+                      <li><a href="#!">Oleje samochodowe</a></li>
+                      <li><a href="#!">Oleje samochodowe</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-6 col-xs-12">
+                    <ul class="nocar-tabs-list">
+                      <li><a href="#!">Oleje samochodowe</a></li>
+                      <li><a href="#!">Oleje samochodowe</a></li>
+                      <li><a href="#!">Oleje samochodowe</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>    
+      </div>
+      <div data-nocar-product-content="2">
+        <div class="row">
+          <a href="javascript:void(0)" class="npt-m-toggle visible-xs">Oleje i chemia <i class="fa fa-angle-down"></i></a>
+          <div class="npt-m-content">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+              <h5><a href="javascript:void(0)" class="npt-m-toggle">Oświetlenie 1 <i class="fa fa-angle-down visible-xs-inline"></i></a></h5>
+              <ul class="nocar-tabs-list npt-m-content">
+                <li>
+                  <a class="nocar-tabs-list npt-m-toggle always-dropdown" href="#!">Oleje samochodowe <span class="caret hidden-xs"></span><i class="fa fa-angle-down visible-xs-inline"></i></a>
+                  <ul class="nocar-tabs-list npt-m-content always-dropdown">
+                    <li>
+                      <a href="#!">Oleje samochodowe</a>
+                    </li>
+                    <li>
+                      <a href="#!">Oleje samochodowe</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#!">Oleje samochodowe</a>
+                </li>
+                <li>
+                  <a href="#!">Oleje samochodowe</a>
+                </li>
+                <li>
+                  <a href="#!">Oleje samochodowe</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
+              <h5><a href="javascript:void(0)" class="npt-m-toggle">Oświetlenie 2 <i class="fa fa-angle-down visible-xs-inline"></i></a></h5>
+              <div class="npt-m-content">
+                <div class="row">
+                  <div class="col-sm-6 col-xs-12">
+                    <ul class="nocar-tabs-list">
+                      <li><a href="#!">Oleje samochodowe</a></li>
+                      <li><a href="#!">Oleje samochodowe</a></li>
+                      <li><a href="#!">Oleje samochodowe</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-6 col-xs-12">
+                    <ul class="nocar-tabs-list">
+                      <li><a href="#!">Oleje samochodowe</a></li>
+                      <li><a href="#!">Oleje samochodowe</a></li>
+                      <li><a href="#!">Oleje samochodowe</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-nocar-product-content="3">
+        <div class="row">
+          <a href="javascript:void(0)" class="npt-m-toggle visible-xs">Oleje i chemia <i class="fa fa-angle-down"></i></a>
+          <div class="npt-m-content">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+              <h5><a href="javascript:void(0)" class="npt-m-toggle">Akcesoria 1 <i class="fa fa-angle-down visible-xs-inline"></i></a></h5>
+              <ul class="nocar-tabs-list npt-m-content">
+                <li>
+                  <a class="nocar-tabs-list npt-m-toggle always-dropdown" href="#!">Oleje samochodowe <span class="caret hidden-xs"></span><i class="fa fa-angle-down visible-xs-inline"></i></a>
+                  <ul class="nocar-tabs-list npt-m-content always-dropdown">
+                    <li>
+                      <a href="#!">Oleje samochodowe</a>
+                    </li>
+                    <li>
+                      <a href="#!">Oleje samochodowe</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#!">Oleje samochodowe</a>
+                </li>
+                <li>
+                  <a href="#!">Oleje samochodowe</a>
+                </li>
+                <li>
+                  <a href="#!">Oleje samochodowe</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
+              <h5><a href="javascript:void(0)" class="npt-m-toggle">Akcesoria 2 <i class="fa fa-angle-down visible-xs-inline"></i></a></h5>
+              <div class="npt-m-content">
+                <div class="row">
+                  <div class="col-sm-6 col-xs-12">
+                    <ul class="nocar-tabs-list">
+                      <li><a href="#!">Oleje samochodowe</a></li>
+                      <li><a href="#!">Oleje samochodowe</a></li>
+                      <li><a href="#!">Oleje samochodowe</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-6 col-xs-12">
+                    <ul class="nocar-tabs-list">
+                      <li><a href="#!">Oleje samochodowe</a></li>
+                      <li><a href="#!">Oleje samochodowe</a></li>
+                      <li><a href="#!">Oleje samochodowe</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="nocar-best-products">
+  <h3 class="text-center">Polecane produkty</h3>
+  <div class="container">
+    <div id="nocar-best-products">
+        <div class="nocar-best-product">
+          <div class="item-image">
+            <img src="img/olej.jpg">
+          </div>
+          <div class="item-name">
+            Lorem ipsum dolor sit amet turpis vulputate
+          </div>
+          <div class="item-price regular-price">
+            <span class="price">99,99 zł</span>
+          </div>
+        </div>
+        <div class="nocar-best-product">
+          <div class="item-image">
+            <img src="img/olej.jpg">
+          </div>
+          <div class="item-name">
+            Lorem ipsum dolor sit amet lorem. Vivamus vitae erat dictum
+          </div>
+          <div class="item-price special-price">
+            <span class="price">99,99 zł</span>
+            <span class="discount-rate">-10%</span>
+            <div class="clearfix"></div>
+            <span class="old-price">111,99 zł</span>
+          </div>
+        </div>
+        <div class="nocar-best-product">
+          <div class="item-image">
+            <img src="img/olej.jpg">
+          </div>
+          <div class="item-name">
+            Lorem ipsum dolor sit amet lorem
+          </div>
+          <div class="item-price regular-price">
+            <span class="price">99,99 zł</span>
+          </div>
+        </div>
+        <div class="nocar-best-product">
+          <div class="item-image">
+            <img src="img/olej.jpg">
+          </div>
+          <div class="item-name">
+            Lorem ipsum
+          </div>
+          <div class="item-price regular-price">
+            <span class="price">99,99 zł</span>
+          </div>
+        </div>
+        <div class="nocar-best-product">
+          <div class="item-image">
+            <img src="img/olej.jpg">
+          </div>
+          <div class="item-name">
+            Lorem ipsum dolor sit amet turpis vulputate
+          </div>
+          <div class="item-price regular-price">
+            <span class="price">99,99 zł</span>
+          </div>
+        </div>
+        <div class="nocar-best-product">
+          <div class="item-image">
+            <img src="img/olej.jpg">
+          </div>
+          <div class="item-name">
+            Lorem ipsum dolor sit amet turpis vulputate
+          </div>
+          <div class="item-price regular-price">
+            <span class="price">99,99 zł</span>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="nocar-brands">
+  <h3 class="text-center">Producenci</h3>
+
+  <div class="container">
+    <div class="nocar-brands-wrapper">
+      <div id="nocar-brands-carousel">
+        <div class="nocar-brand-box">
+          <img src="img/ge.jpg">
+        </div>
+        <div class="nocar-brand-box">
+          <img src="img/ge.jpg">
+        </div>
+        <div class="nocar-brand-box">
+          <img src="img/ge.jpg">
+        </div>
+        <div class="nocar-brand-box">
+          <img src="img/ge.jpg">
+        </div>
+        <div class="nocar-brand-box">
+          <img src="img/ge.jpg">
+        </div>
+      </div>
+      <div class="nocar-additional-brands">
+        <div class="nocar-brand-box">
+          <img src="img/ge.jpg">
+        </div>
+        <div class="nocar-brand-box">
+          <img src="img/ge.jpg">
+        </div>
+        <div class="nocar-brand-box">
+          <img src="img/ge.jpg">
+        </div>
+        <div class="nocar-brand-box">
+          <img src="img/ge.jpg">
+        </div>
+        <div class="nocar-brand-box">
+          <img src="img/ge.jpg">
+        </div>
+      </div>
+    </div>
+
+    <button class="nocar-brands-show-more">
+      <span class="show-more">Pokaż wszystkich producentów <i class="fa fa-angle-down"></i></span>
+      <span class="hide-more">Schowaj <i class="fa fa-angle-up"></i></span>
+    </button>
+  </div>
+</div>
+
+<div class="nocar-usage-informations">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="nocar-usage-information">
+          <div class="icon-wrapper">
+            <img src="img/icons/clock.png" alt="" class="usage-information-icon">
+          </div>
+          <div class="content-wrapper">
+            <p>7 dni na zwrot</p>
+            <p>bez podania przyczyny</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="nocar-usage-information">
+          <div class="icon-wrapper">
+            <img src="img/icons/delivery.png" alt="" class="usage-information-icon">
+          </div>
+          <div class="content-wrapper">
+            <p>Średni czas realizacji</p>
+            <p>zamówienia to 24h</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="nocar-usage-information">
+          <div class="icon-wrapper">
+            <img src="img/icons/command.png" alt="" class="usage-information-icon">
+          </div>
+          <div class="content-wrapper">
+            <p>98% zadowolonych</p>
+            <p>klientów!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="nocar-footer-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6 hidden-xs footer-collumn">
+        <h4>Wysyłkę realizuje</h4>
+        <img src="img/gls.png" class="img-responsive gls-image">
+        <p class="footer-top-description">Lorem ipsum dolor sit amet erat. Aliquam quis metus. Maecenas consequat, augue quis neque tristique senectus et massa. Suspendisse potenti. Cras nec magna. Integer semper nec, hendrerit id, adipiscing diam vestibulum eget, bibendum ac, felis. Etiam varius, sem vel ipsum.</p>
+      </div>
+      <div class="col-md-3 col-sm-6 hidden-xs">
+        <h4>Płatności</h4>
+        <img src="img/dotpay.png" class="img-responsive dotpay-image">
+        <div class="separator"></div>
+        <p class="footer-top-payment-info">
+          Przelew internetowy
+        </p>
+        <div class="separator"></div>
+        <p class="footer-top-payment-info">
+          Płatność za pobraniem
+        </p>
+      </div>
+      <div class="clearfix visible-sm"></div>
+      <div class="col-md-3 col-sm-6 hidden-xs">
+        <h4>Zaufaj nam</h4>
+        <img src="img/opineo.png" class="img-responsive opineo-image">
+        <img src="img/osram.png" class="img-responsive osram-image">
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <h4 class="footer-top-call-us">Zadzwoń do nas</h4>
+        <p class="footer-top-contact-information">
+          <a href="callto:601 093 093">601 093 093</a>
+        </p>
+        <p class="footer-top-contact-hours">
+          Pon.-Pt. 8:00 - 18:00
+        </p>
+
+        <h4 class="footer-top-email-us">Lub napisz</h4>
+        <p class="footer-top-contact-information">
+          <a href="mailto:biuro@nocar.pl">biuro@nocar.pl</a>
+        </p>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="nocar-footer-bottom hidden-xs">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6 footer-collumn">
+        <h4>Informacje</h4>
+        <ul>
+          <li><a href="#!">Regulamin sklepu</a></li>
+          <li><a href="#!">Polityka cookies</a></li>
+          <li><a href="#!">FAQ - często zadawane pytania</a></li>
+          <li><a href="#!">Praca</a></li>
+          <li><a href="#!">Blog</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <h4>Jak kupować?</h4>
+        <ul>
+          <li><a href="#!">Wysyłka</a></li>
+          <li><a href="#!">Formy płatności</a></li>
+          <li><a href="#!">Zwrot</a></li>
+          <li><a href="#!">Wymiana</a></li>
+          <li><a href="#!">Reklamacje</a></li>
+        </ul>
+      </div>
+      <div class="clearfix visible-sm"></div>
+      <div class="col-md-3 col-sm-6">
+        <h4>Kontakt</h4>
+        <ul>
+          <li><a href="#!">Dane firmy</a></li>
+          <li><a href="#!">Kontakt</a></li>
+          <li><a href="#!">Press room</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <h4>Newsletter</h4>
+        <p class="newsletter-caption">
+          Wpisz swój adres e-mail, aby otrzymywać od nas informacje o promocjach.
+        </p>
+        <div class="newsletter-form">
+          <input type="email" placeholder="Twój adres mailowy">
+          <button><span>&raquo;</span></button>
+        </div>
+        <p class="newsletter-rules">
+          Zapisując się do newslettea wyrażasz zgodę na przetwarzanie danych osobowych do celów marketingów (Ustawa o ochronie danych osobowych z dnia 29 sierpnia 1997 r) oraz zgodę<span class="text-hidden"> na przesyłanie informacji handlowych/marketingowych drogą elektroniczną (Ustawa o świadczeniu usług drogą elektroniczną z dnia 18 lipca 2002 r.). W dowolnym momencie możez zrezygnować z otrzymywania subskrypcji.</span><span class="show-all-text"><span class="hidden-if-open">...</span> <a href="javascript:void(0)">(<span class="hidden-if-open">ro</span>zwiń)</a></span>
+
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="nocar-footer-bottom-additional-info">
+      <div class="copyrights pull-left">
+        Copyright &copy; 2016 Nocar
+      </div>
+      <div class="social-icons pull-right">
+        <p class="join-us">Dołącz do nas</p>
+        <span class="social-icon">
+          <a href="#!"><i class="fa fa-facebook"></i></a>
+        </span>
+        <span class="social-icon">
+          <a href="#!"><i class="fa fa-google-plus"></i></a>
+        </span>
+        <span class="social-icon">
+          <a href="#!"><i class="fa fa-twitter"></i></a>
+        </span>
+      </div> 
+    </div>
+  </div>
+</div>
+
+<div class="nocar-mobile-footer visible-xs">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-6">
+        <a href="#!">Wysyłka</a>
+      </div>
+      <div class="col-xs-6">
+        <a href="#!">Dane firmy</a>
+      </div>
+
+      <div class="col-xs-6">
+        <a href="#!">Zwroty</a>
+      </div>
+      <div class="col-xs-6">
+        <a href="#!">Kontakt</a>
+      </div>
+
+      <div class="col-xs-6">
+        <a href="#!">Reklamacje</a>
+      </div>
+      <div class="col-xs-6">
+        <a href="#!">Press room</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/list.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/data.js"></script>
+<script src="js/form-system.js"></script>
+<script src="js/system.js"></script>
+
+
+<script type="text/javascript">
+  $("#nocar-best-products").owlCarousel({
+    items: 6,
+    itemsDesktop : [1199,6],
+    itemsDesktopSmall : [980,4],
+    itemsTablet: [768,2],
+    itemsTabletSmall: false,
+    itemsMobile : [479,1],
+    navigation : true,
+    navigationText : ["",""],
+    loop: true,
+  });
+
+  $("#nocar-brands-carousel").owlCarousel({
+    items: 5,
+    itemsDesktop : [1199,5],
+    itemsDesktopSmall : [980,4],
+    itemsTablet: [768,3],
+    itemsTabletSmall: false,
+    itemsMobile : [479,1],
+    navigation : true,
+    navigationText : ["",""],
+    loop: true,
+  });
+
+</script>
+</body>
+</html>

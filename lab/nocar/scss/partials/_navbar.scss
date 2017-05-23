@@ -1,0 +1,207 @@
+.nocar-navbar
+{
+	background: transparent;
+	height: 50px;
+
+	.container-fluid
+	{
+		height: 100%;
+	}
+	&.dark
+	{
+		background: $base-color-blue;
+	}
+
+	@include transition(background 0.25s);
+
+	border: none;
+	border-radius: none;
+	color: white;
+	padding: 0 15px;
+
+	.navbar-brand
+	{
+		padding: 17px;
+	}
+
+	.navbar-right
+	{
+		margin-right: 0;
+	}
+
+	@media(max-width: 767px){
+		padding-left: 0;
+		background: $base-color-blue;
+
+		.navbar-header
+		{		
+			text-align: center;
+			height: 50px;
+
+			a.navbar-brand
+			{
+				float: none;
+				display: inline-block;
+			}
+		}
+		.navbar-right
+		{
+			position: relative;
+		    top: -50px;
+		    margin-top: 0;
+		    margin-right: -15px;
+
+		    .cart-wrapper
+		    {
+		    	float: right;
+
+		    	.icon-wrapper
+		    	{
+		    		float: right;
+		    	}
+		    	.dropdown-menu
+		    	{
+		    		background: white;
+		    		margin-top: 50px;
+		    	}
+		    }
+
+		    .menu-icon-wrapper
+		    {
+		    	float: left;
+		    }
+		}
+	}
+
+	.dropdown.open
+	{
+		a, a:focus, a:active, a:hover
+		{
+			background: transparent;
+		}
+
+		.dropdown-menu
+		{
+			color: $base-color-blue;
+			border-radius: 0;
+		}
+	}
+
+	.nocar-navbar-information-box
+	{
+		margin-left: 15px;
+		margin-right: 15px;
+
+		a
+		{
+			color: white !important;
+			padding: 0 !important;
+
+			div
+			{
+				display: inline-block;
+				vertical-align: middle;
+			}
+
+			p
+			{
+				margin: 0;
+				line-height: 1;
+				font-size: 12px;
+
+				&:first-child
+				{
+					margin-bottom: 5px;
+				}
+
+				&:last-child
+				{
+					font-weight: 300;
+				}
+			}
+
+			.icon-wrapper
+			{
+				height: 50px;
+				font-size: 22px;
+				line-height: 45px;
+				padding: 0 8px;
+				position: relative;
+
+				img.navbar-icon
+				{
+					width: 22px;
+				}
+
+				.shopping-cart-items-count
+				{
+					font-size: 8px;
+					font-weight: 800;
+				    position: absolute;
+				    right: 0;
+				    top: 12px;
+				    width: 12px;
+				    height: 12px;
+				    line-height: 12px;
+				    background: white;
+				    text-align: center;
+				    padding-right: 1px;
+				    color: #313F6B;
+				    border-radius: 50%;
+				}
+			}
+
+			.information-wrapper
+			{
+				padding-right: 8px;
+			}
+		}	
+	}
+
+	.nocar-navbar-search
+	{
+		height: 50px;
+	    font-size: 16px;
+	    line-height: 49px;
+	    margin-left: 15px;
+
+		a
+		{
+			color: white !important;
+		}
+
+		.dropdown-menu
+		{
+			width: 300px;
+			padding: 0;
+
+			li
+			{
+				height: 35px;
+				line-height: 1;
+
+				input
+				{
+					height: 100%;
+					display: inline-block;
+					width: calc(100% - 100px);
+					vertical-align: middle;
+					border: none;
+					background: white;
+					padding-left: 10px;
+					padding-right: 10px;
+				}
+				button
+				{
+					height: 100%;
+					display: inline-block;
+					width: 97px;
+					vertical-align: middle;
+					background: $base-color-blue;
+					border: 1px solid $base-color-blue;
+					color: white;
+				}
+			}
+		}
+	}
+}

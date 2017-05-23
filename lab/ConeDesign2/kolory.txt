@@ -1,0 +1,7 @@
+O firmie: HEX - 003757, RGB - 0, 55, 87 
+ 
+Oferta: HEX - 192F3B, RGB - 25, 47, 59 
+ 
+Kontakt: HEX - 024E64, RGB - 2, 78, 100 
+ 
+Ekipa: HEX - 21485F, RGB - 33, 72, 95

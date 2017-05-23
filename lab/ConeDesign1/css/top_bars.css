@@ -1,0 +1,67 @@
+.top-bar
+{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 60px;
+	padding: 0 225px;
+	text-transform: uppercase;
+}
+
+.top-bar-logo
+{
+	max-height: 55px;
+	position: relative;
+	top: 6px;
+	cursor: pointer;
+}
+
+.top-bar .menu-content .scroll-to
+{
+	padding: 15px 0 15px 0;
+	font-size: 20px;
+	display: inline-block;
+}
+
+.top-bar a
+{
+	margin-right: 20px;
+	cursor: pointer;
+	color: white;
+}
+
+.top-bar a:hover
+{
+	color: #eee;
+}
+
+.top-bar a:last-child
+{
+	margin-right: 0;
+}
+
+#ekipa .top-bar
+{
+	background: #21485F;
+}
+
+#oferta .top-bar
+{
+	background: #192F3B;
+}
+
+#kontakt .top-bar
+{
+	background: #024E64;
+}
+
+#o_firmie .top-bar
+{
+	background: #003757;
+}
+
+.offer-page .top-bar, .teammate-page .top-bar
+{
+	background: black;
+}

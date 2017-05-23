@@ -1,0 +1,141 @@
+footer {
+  .footer-main {
+    background: #F2F2F2;
+    padding: 10px 0 30px;
+    position: relative;
+
+    h2 {
+      margin-top: 0;
+      margin-bottom: 0.75em;
+    }
+
+    h3 {
+      margin-top: 10px;
+      font-size: 22px;
+      margin-bottom: 30px;
+      color: #506C6C;
+    }
+
+    ul.footer-links {
+      list-style: none;
+      padding-left: 0;
+
+      li {
+        text-align: center;
+
+        a {
+
+          font-size: 19px;
+          font-weight: 200;
+          color: #506C6C;
+
+          &:hover, &:focus {
+            text-decoration: none;
+          }
+        }
+      }
+
+      &.first {
+        li {
+          a {
+            font-size: 25px;
+            color: #363636;
+            font-weight: 200;
+          }
+        }
+      }
+    }
+
+    &:before {
+      content: ' ';
+      z-index: 3;
+      top: 100%;
+      left: 0;
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 100px 50vw;
+      border-color: #F2F2F2 transparent transparent transparent;
+    }
+
+    .footer-logo {
+      position: absolute;
+      left: 50%;
+      top: 100%;
+      transform: translate(-50%, 25%);
+      width: 50px;
+      height: auto;
+      z-index: 5;
+    }
+  }
+
+  .newsletter {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    @media(max-width: 991px) {
+      h2 {
+        font-size: 25px;
+      }
+    }
+
+    @media(max-width: 767px) {
+      h2 {
+        margin-bottom: 1em;
+      }
+    }
+
+    .newsletter-input {
+      background: #FAFAFA;
+      border: none;
+      display: block;
+      width: 100%;
+      padding: 5px;
+      font-size: 25px;
+      color: #A3A3A3;
+      font-weight: 200;
+      @media(max-width: 767px) {
+        font-size: 18px;
+        text-align: center;
+      }
+    }
+
+    .newsletter-submit {
+      background: #3D3D3D;
+      color: #fff;
+      font-size: 25px;
+      font-weight: 400;
+      display: block;
+      width: 100%;
+      border: none;
+      text-transform: uppercase;
+      @media(max-width: 767px) {
+        font-size: 18px;
+      }
+    }
+  }
+
+  .copyrights {
+    padding-top: 1em;
+    margin-top: 100px;
+    p {
+      font-size: 14px;
+      font-weight: 200;
+      color: #363636;
+
+      &.special {
+        text-align: right;
+      }
+
+      @media(max-width: 767px) {
+        text-align: center;
+        font-size: 12px;
+
+        &.special {
+          text-align: center;
+        }
+      }
+    }
+  }
+}

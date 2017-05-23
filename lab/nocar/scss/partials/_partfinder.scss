@@ -1,0 +1,179 @@
+@media(max-width: 767px){
+	.nocar-partfinder-wrapper .container
+	{
+		padding: 0;
+	}
+}
+
+.nocar-partfinder
+{
+	background: white;
+	border: 3px solid #F4F4F4;
+	padding: 20px;
+	@include transform(translateY(-50%));
+	position: relative;
+	z-index: 1000;
+
+	.dropdown
+	{
+		display: block;
+		float: left;
+		width: 28%;
+
+		button
+		{
+			width: 100%;
+			text-align: left;
+			border-radius: 0;
+			border: 1px solid #D9DADC;
+			border-right: none;
+			outline: none !important;
+
+			&.disabled
+			{
+				color: #D9DADC;
+			}
+
+			&:hover, &:focus
+			{
+				background: #FAFBFD;
+				border-color: #D9DADC;
+			}
+
+			.caret
+			{	
+				margin-top: 8px;
+			}
+
+			span.description
+			{
+				display: inline-block;
+				width: calc(100% - 13px);
+				overflow: hidden;
+				line-height: 1;
+				vertical-align: text-top;
+			}
+		}
+
+		&.open
+		{
+			button,
+			button:hover,
+			button:focus
+			{
+				background: #FAFBFD;
+				border-color: #D9DADC;
+			}
+
+			button
+			{
+				.caret
+				{
+					transform: rotate(180deg);
+				}
+			}
+		}
+
+		.dropdown-menu
+		{
+			width: calc(100% + 1px);
+			border-radius: 0;
+			padding-top: 0;
+
+			input
+			{
+				width: 100%;
+				outline: none !important;
+				border: none;
+				border-bottom: 1px solid #BFBFBF;
+				padding: 6px 10px;
+			}
+
+			.list
+			{
+				max-height: 8.5em;
+			    overflow: auto;
+				padding: 0;
+				list-style: none;
+				background: white;
+
+			    .dropdown-description
+				{
+					color: #45535F;
+					font-weight: bolder;
+					padding: 3px 10px;
+				}
+
+				li.selected
+				{
+					a, a:focus, a:hover
+					{
+						background: $base-color-blue;
+						color: white;
+						position: relative;
+					}
+
+					a::after
+					{
+						content: '\f00c';
+						font-family: FontAwesome;
+						color: white;
+						position: absolute;
+						right: 10px;
+					}
+				}
+			}
+
+			a
+			{
+				width: 100%;
+				display: block;
+				color: #45535F;
+				padding: 0 10px;
+
+				&:focus, &:hover
+				{
+					outline: none;
+					background: #F5F5F5;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+
+	button.button-send-form
+	{
+		background: $base-color-blue;
+		color: white;
+		font-weight: bolder;
+		border-radius: 0;
+		border-color: $base-color-blue;
+		width: 16%;
+	}
+
+	.btn
+	{
+		padding: 10px 20px;
+	}
+
+	@media(max-width: 767px){
+		transform: none;
+
+		.dropdown
+		{
+			width: 100%;
+			margin-bottom: 20px;
+			
+			button
+			{
+				border-right: 1px solid #D9DADC;
+			}
+		}
+
+		button.button-send-form
+		{
+			width: 80%;
+			margin-left: 10%;
+		}
+	}
+}

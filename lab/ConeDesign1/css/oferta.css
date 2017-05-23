@@ -1,0 +1,99 @@
+.oferta
+{
+	background: green;
+}
+
+.oferta .row
+{
+	max-width: 100%;
+}
+
+.offer-col
+{
+	margin: 0;
+	padding: 0;
+}
+
+.offer-box
+{
+	min-height: 400px;
+	max-height: 400px;
+	cursor: pointer;
+	background: white;
+
+}
+
+.offer-box p
+{
+	position: relative;
+		top: 170px;
+	font-size: 40px;
+}
+
+.offer-box p span
+{
+	padding: 7px 13px;
+	font-family: Futura Md BT Medium;
+	font-weight: lighter;
+}
+
+.offer-bg, .offer-filling
+{
+	height: 400px !important;
+	display: block;
+}
+
+.offer-filling
+{
+	background: rgba(255, 255, 255, 0.5);
+	box-shadow: inset 0 0 20px 1px transparent;
+}
+
+.oferta h2
+{
+	margin-top: 40px;
+	font-weight: bolder;
+	font-size: 40px;
+}
+
+.oferta div.web-design
+{
+	background: url(../img/offer_bg/bg_web_design.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.oferta div.marketing
+{
+	background: url(../img/offer_bg/bg_marketing.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.oferta div.branding
+{
+	background: url(../img/offer_bg/bg_branding.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.oferta div.projektowanie
+{
+	background: url(../img/offer_bg/bg_projektowanie_grafic.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.oferta div.administracja
+{
+	background: url(../img/offer_bg/bg_admin.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.oferta div.desktop
+{
+	background: url(../img/offer_bg/bg_desktop.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}

@@ -1,0 +1,141 @@
+.team
+{
+	margin-top: 0;
+	padding: 20px 0;
+	background: url(../img/city_at_night.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.team h2
+{
+	color: white;
+}
+
+.team .row
+{
+	width: 75%;
+	margin: 10px auto;
+}
+
+.ekipa-box
+{
+	width: 70%;
+	min-height: 400px;
+	max-width: 450px;
+	margin: 20px auto;
+	box-shadow: 0 0 10px 2.5px #21485f;
+	cursor: pointer;
+}
+
+.ekipa-box h2
+{
+	color: #333;
+}
+
+.img-wrapper
+{
+	background: rgba(255, 255, 255, 0.5);
+}
+
+.man-img
+{
+	width: 100%;
+	height: 300px;
+}
+
+.img-filling
+{
+	width: 100%;
+	height: 100%;
+}
+
+.img-piotrek
+{
+	background: url(../img/team/piotrek.png) no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+
+.img-piotrek-2
+{
+	background: url(../img/team/piotrek.png) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.img-marcin
+{
+	background: url(../img/team/marcin_2.png) no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+
+.img-marcin-2
+{
+	background: url(../img/team/marcin_2.png) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.img-maciek
+{
+	background: url(../img/team/maciek_2.png) no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+
+.img-maciek-2
+{
+	background: url(../img/team/maciek_2.png) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.img-michal
+{
+	background: url(../img/team/michal_2.png) no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+
+.img-michal-2
+{
+	background: url(../img/team/michal_2.png) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.stanowisko
+{
+	color: #21485f;
+	font-weight: 500;
+	font-size: 18px;
+	font-style: italic;
+	text-align: center;
+}
+
+.additional
+{
+	background: white;
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+}
+
+.additional h2
+{
+	margin-top: 0;
+}
+
+.team h2
+{
+	font-weight: bolder;
+	font-size: 40px;
+}
+
+.team h3
+{
+	font-weight: bolder;
+	font-size: 30px;
+}

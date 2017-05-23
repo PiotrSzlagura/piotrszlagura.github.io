@@ -1,0 +1,147 @@
+.banner
+{
+	width: 100%;
+	height: 500px;
+	margin-bottom: 0;
+}
+
+.offer-page .banner
+{
+	width: 100%;
+	height: 400px;
+	margin-bottom: 0;
+}
+
+.teammate-page .banner
+{
+	width: 100%;
+	height: 400px;
+	margin-bottom: 0;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.teammate-page .banner .row
+{
+	max-width: 75%;
+	margin: 0 auto;
+}
+
+.teammate-page .banner-picture
+{
+	margin: 50px auto;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	border: 1px solid white;
+	background: white;
+}
+
+.teammate-page .banner-teammate-personals
+{
+	margin: 90px auto;
+	text-transform: uppercase;
+	color: white;
+}
+
+.teammate-page .banner-teammate-personals h2
+{
+	font-size: 80px;
+}
+
+.banner .inside h1
+{
+	color: #191919;
+	margin: 0;
+	line-height: 500px;
+	font-size: 100px;
+	letter-spacing: 20px;
+	text-align: center;
+	font-weight: 200;
+	background: rgba(255, 255, 255, 0.2);
+}
+
+.offer-page .banner .inside h1
+{
+	margin: 0;
+	line-height: 400px;
+	font-size: 75px;
+	letter-spacing: 6px;
+	text-align: center;
+	font-weight: 200;
+	background: rgba(255, 255, 255, 0.5);
+}
+
+#ekipa .banner
+{
+	background: url(../img/banner_bg/bg_ekipa.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+#oferta .banner
+{
+	background: url(../img/banner_bg/bg_oferta.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+#kontakt .banner
+{
+	background: url(../img/banner_bg/bg_kontakt.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+#o_firmie .banner
+{
+	background: url(../img/banner_bg/bg_o_firmie.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+#web_design .banner
+{
+	background: url(../img/offer_bg/banner/bg_web_design.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+#branding .banner
+{
+	background: url(../img/offer_bg/banner/bg_branding.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+#marketing .banner
+{
+	background: url(../img/offer_bg/banner/bg_marketing.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+#projektowanie_graficzne .banner
+{
+	background: url(../img/offer_bg/banner/bg_projektowanie.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+#administracja .banner
+{
+	background: url(../img/offer_bg/banner/bg_admin.jpg) no-repeat !important;
+	background-size: cover;
+	background-position: center center;
+}
+
+#desktop_publishing .banner
+{
+	background: url(../img/offer_bg/banner/bg_desktop.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.takatamklasaktoranieistniejeatotylkotest
+{
+    color: red;
+}

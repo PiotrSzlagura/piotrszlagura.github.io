@@ -1,0 +1,155 @@
+@font-face {
+font-family: 'Futura Md BT Medium';
+font-style: normal;
+font-weight: normal;
+src: local('Futura Md BT Medium'), url('futura_medium_bt-webfont.woff') format('woff');
+}
+
+body
+{
+	overflow: hidden;
+	font-family: Trebuchet MS;
+	background: url(../img/full_bg_wide.jpg) repeat;
+	background-size: 10px 10px;
+}
+
+.row
+{
+	max-width: 99%;
+}
+
+.content-box
+{
+	overflow: auto;
+	background: url(../img/bg_dots_2.jpg) repeat;
+	background-size: 50%;
+	max-width: 2000px !important;
+	max-height: 2000px !important;
+}
+
+.kontakt-item
+{
+	margin-top: 30px;
+	font-size: 24px;
+}
+
+.kontakt .row
+{
+	width: 75%;
+	margin: 0 auto;
+}
+
+h1
+{
+	font-family: Futura Md BT Medium;
+	font-weight: lighter;
+}
+
+.content-box-inner
+{
+	height: 100%;
+	max-width: 100%;
+}
+
+.additional-offer-menu.fixed-position
+{
+	position: fixed;
+		top: 60px;
+		left: 0px;
+	width: calc(100% - 17px);
+	padding: 10px 300px;
+	z-index: 2;
+	color: white;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.additional-offer-menu.initial-hidden
+{
+	display: none;
+}
+
+.additional-offer-menu.initial-hidden a
+{
+	cursor: pointer;
+	color: white;
+}
+
+.additional-offer-menu.initial-hidden a:hover
+{
+	color: #eee;
+}
+
+.loading-show
+{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	z-index: 200;
+	background: url(../img/awesome_bg.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.do-flip
+{
+	cursor: pointer;
+}
+
+.polish .pl
+{
+	display: inline;
+}
+
+.polish .en
+{
+	display: none;
+}
+
+.english .pl
+{
+	display: none;
+}
+
+.english .en
+{
+	display: inline;
+}
+
+#lang-change img
+{
+	cursor: pointer;
+	transition: box-shadow 0.35s;
+	-o-transition: box-shadow 0.35s;
+	-moz-transition: box-shadow 0.35s;
+	-webkit-transition: box-shadow 0.35s;
+}
+
+#lang-change img:hover
+{
+	box-shadow: 0 0 15px 0.75px white;
+}
+
+.cookie-alert
+{
+	position: fixed;
+		bottom: 100px;
+		left: calc(50% - 400px / 2);
+		z-index: 20;
+
+	cursor: pointer;
+}
+
+.alert-inside
+{
+	margin: 0 auto;
+	width: 360px !important;
+	padding: 10px 15px;
+	background: rgba(0, 0, 0, 0.75);
+	position: absolute;
+	color: white;
+	border-radius: 6px;
+
+}

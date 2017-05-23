@@ -1,0 +1,92 @@
+@mixin owl-carousel-pagination() {
+  .owl-pagination {
+    .owl-page {
+      width: 80px;
+      height: 3px;
+      border: none;
+      border-radius: 0;
+      background: #D1D1D1;
+      margin: 0 5px;
+
+      &.active {
+        border: none;
+        background: #363636;
+      }
+
+      > span {
+        display: none;
+      }
+
+      @media(max-width: 1000px) {
+        width: 40px;
+      }
+
+      @media(max-width: 500px) {
+        width: 30px;
+      }
+    }
+  }
+}
+
+@mixin owl-carousel-buttons($no-minus-offset: "false") {
+  .owl-controls {
+    .owl-prev, .owl-next {
+      background: transparent;
+      color: #000;
+      font-size: 40px;
+      opacity: 1;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+
+    }
+
+    @if $no-minus-offset == "true" {
+      .owl-prev {
+        left: 5px;
+      }
+      .owl-next {
+        right: 5px;
+      }
+    } @else {
+      .owl-prev {
+        left: -5px;
+      }
+      .owl-next {
+        right: -5px;
+      }
+    }
+  }
+}
+
+@mixin owl-carousel-buttons-extended() {
+  .owl-controls {
+    .owl-prev, .owl-next {
+      background: transparent;
+      color: #000;
+      font-size: 40px;
+      opacity: 1;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+
+    }
+
+    .owl-prev {
+      left: -25px;
+    }
+    .owl-next {
+      right: -25px;
+    }
+
+    @media(max-width: 1500px) {
+      .owl-prev {
+        left: 0;
+      }
+      .owl-next {
+        right: 0;
+      }
+    }
+
+  }
+}

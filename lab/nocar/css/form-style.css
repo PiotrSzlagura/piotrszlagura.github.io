@@ -1,0 +1,135 @@
+.nocar-partfinder
+{
+	background: white;
+	border: 3px solid #F4F4F4;
+	padding: 20px;
+	transform: translateY(-50%);
+}
+
+.nocar-partfinder .dropdown
+{
+	display: block;
+	float: left;
+	width: 28%;
+}
+
+.nocar-partfinder .dropdown button
+{
+	width: 100%;
+	text-align: left;
+	border-radius: 0;
+	border: 1px solid #D9DADC;
+	border-right: none;
+	outline: none !important;
+}
+
+.nocar-partfinder .dropdown button.disabled
+{
+	color: #D9DADC;
+}
+
+.nocar-partfinder .dropdown button:hover,
+.nocar-partfinder .dropdown button:focus,
+.nocar-partfinder .dropdown.open button,
+.nocar-partfinder .dropdown.open button:focus,
+.nocar-partfinder .dropdown.open button:hover
+{
+	background: #FAFBFD;
+	border-color: #D9DADC;
+}
+
+.nocar-partfinder .dropdown button .caret
+{
+	margin-top: 8px;
+}
+
+.nocar-partfinder .dropdown.open button .caret
+{
+	transform: rotate(180deg);
+}
+
+.nocar-partfinder .dropdown .dropdown-menu
+{
+	width: calc(100% + 1px);
+	border-radius: 0;
+	padding-top: 0;
+}
+
+.nocar-partfinder .dropdown .dropdown-menu input
+{
+	width: 100%;
+	outline: none !important;
+	border: none;
+	border-bottom: 1px solid #BFBFBF;
+	padding: 3px 10px;
+}
+
+.nocar-partfinder .dropdown .dropdown-menu .list
+{
+	padding: 0;
+	max-height: 8.5em;
+    overflow: auto;
+}
+
+.nocar-partfinder .dropdown .dropdown-menu .list .dropdown-description
+{
+	color: #45535F;
+	font-weight: bolder;
+	padding: 3px 10px;
+}
+
+.nocar-partfinder .dropdown .dropdown-menu a
+{
+	width: 100%;
+	display: block;
+	color: #45535F;
+	padding: 0 10px;
+}
+
+.nocar-partfinder .dropdown .dropdown-menu a:focus,
+.nocar-partfinder .dropdown .dropdown-menu a:hover
+{
+	outline: none;
+	background: #F5F5F5;
+	text-decoration: none;
+}
+
+.nocar-partfinder .dropdown .dropdown-menu .list li.selected a,
+.nocar-partfinder .dropdown .dropdown-menu .list li.selected a:focus,
+.nocar-partfinder .dropdown .dropdown-menu .list li.selected a:hover
+{
+	background: #223265;
+	color: white;
+	position: relative;
+}
+
+.nocar-partfinder .dropdown .dropdown-menu .list li.selected a::after
+{
+	content: '\f00c';
+	font-family: FontAwesome;
+	color: white;
+	position: absolute;
+	right: 10px;
+}
+
+.nocar-partfinder button.button-send-form
+{
+	background: #313F6C;
+	color: white;
+	font-weight: bolder;
+	border-radius: 0;
+	border-color: #313F6C;
+	width: 16%;
+}
+
+/*li[data-include-brand],
+li[data-include-model]
+{
+	display: none;
+}
+*/
+.list
+{
+	padding: 0 10px;
+	list-style: none;
+}

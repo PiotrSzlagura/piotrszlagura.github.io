@@ -1,0 +1,25 @@
+.product-options {
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  .option {
+    text-align: center;
+    cursor: pointer;
+
+    img {
+      display: inline-block;
+      transform: scale(0.65);
+      filter: blur(2px);
+      transition: transform 0.25s;
+    }
+  }
+
+  .owl-item.center {
+    .option {
+      img {
+        transform: scale(1);
+        filter: blur(0);
+      }
+    }
+  }
+}

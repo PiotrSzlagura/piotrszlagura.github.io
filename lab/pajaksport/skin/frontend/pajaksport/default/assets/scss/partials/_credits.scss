@@ -1,0 +1,34 @@
+.credits-wrapper-outer {
+  margin-top: 60px;
+}
+
+.credits-heading {
+  margin-bottom: 1em;
+  text-align: left;
+  font-weight: 400;
+
+  strong {
+    font-weight: 600;
+  }
+
+  &.awards {
+    color: #506C6C;
+  }
+  &.technology {
+    color: #CCC8C3;
+  }
+}
+
+.credits-wrapper {
+  font-size: 0;
+  .credits-box {
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(100% / 6);
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}

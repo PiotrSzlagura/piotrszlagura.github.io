@@ -1,0 +1,41 @@
+.oferta div.web-design
+{
+	background: url(../../img/offer_bg/bg_web_design.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.oferta div.marketing
+{
+	background: url(../../img/offer_bg/bg_marketing.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.oferta div.branding
+{
+	background: url(../../img/offer_bg/bg_branding.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.oferta div.projektowanie
+{
+	background: url(../../img/offer_bg/bg_projektowanie_grafic.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.oferta div.administracja
+{
+	background: url(../../img/offer_bg/bg_admin.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.oferta div.desktop
+{
+	background: url(../../img/offer_bg/bg_desktop.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}

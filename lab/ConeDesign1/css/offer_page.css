@@ -1,0 +1,78 @@
+.offer-page-content
+{
+	color: white;
+	background: black;
+	padding: 20px 0;
+}
+
+.offer-page h2.heading
+{
+	font-size: 40px;
+	font-weight: bolder;
+	margin-top: 0;
+}
+
+.offer-page .row
+{
+	max-width: 75%;
+	margin: 40px auto;
+	
+}
+
+.offer-page-img
+{
+	width: 100%;
+	height: 250px;
+	border: 1px solid white;
+}
+
+.offer-page .row h2
+{
+	margin-top: 0;
+}
+
+.offer-page .row p
+{
+	font-size: 20px;
+}
+
+.offer-info-box
+{
+	cursor: pointer;
+}
+
+.offer-info-img
+{
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	border: 1px solid white;
+	margin: 0 auto 30px auto;
+}
+
+.offer-info-hidden
+{
+	display: none;
+}
+
+.offer-block .row
+{
+	width: 50%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.offer-block .row:first-child
+{
+	margin-top: 40px;
+}
+
+.offer-block .row:last-child
+{
+	margin-bottom: 40px;
+}
+
+.offer-block .row .glyphicon
+{
+	font-size: 30px;
+}

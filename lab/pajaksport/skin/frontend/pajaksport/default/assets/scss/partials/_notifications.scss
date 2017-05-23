@@ -1,0 +1,17 @@
+li.success-msg,
+li.error-msg,
+li.notice-msg {
+  ul li {
+    &:before {
+      display: none !important;
+    }
+    border-left: 0 !important;
+    margin-bottom: 0;
+    background: transparent;
+    padding: 0;
+
+    &:not(:first-child) {
+      margin-top: 10px;
+    }
+  }
+}

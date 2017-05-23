@@ -1,0 +1,57 @@
+.nocar-discounts
+{
+	@media(max-width: 767px)
+	{
+		.container
+		{
+			padding: 0;
+		}
+	}
+	.nocar-discount-wrapper
+	{
+		height: 200px;
+		background: url(../img/mechanik.jpg) no-repeat;
+		background-size: cover;
+		background-position: center;
+		margin-bottom: 30px;
+
+		@media(max-width: 767px)
+		{
+			margin-bottom: 0;
+		}
+
+		.nocar-discount-box
+		{
+			height: 200px;
+			background: rgba(0, 0, 0, 0.5);
+			position: relative;
+
+			color: white;
+			text-align: center;
+
+			.nocar-discount-content
+			{
+				position: absolute;
+				top: 50%;
+				left: 0;
+				width: 100%;
+				@include transform(translateY(-50%));
+
+				h2
+				{
+					margin-top: 0;
+					margin-bottom: 0;
+					font-size: 55px;
+					font-weight: bolder;
+				}
+
+				p
+				{
+					margin-bottom: 0;
+					font-weight: bolder;
+					letter-spacing: 0.5px;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,37 @@
+.info
+{
+	width: 100%;
+	padding: 40px 12.5%;
+}
+
+#ekipa .info
+{
+	background: rgba(33, 72, 95, 0.8);
+	color: white;
+}
+
+#oferta .info
+{
+	background: rgba(25, 47, 59, 0.8);
+	color: white;
+}
+
+#kontakt .info
+{
+	background: rgba(2, 78, 100, 0.8);
+	color: white;
+	min-height: 400px;
+	padding-top: 50px;
+}
+
+#o_firmie .info
+{
+	background: rgba(0, 55, 87, 0.8);
+	color: white;
+}
+
+.offer-page .info, .teammate-page .info
+{
+	background: rgba(0, 0, 0, 0.6);
+	color: white;
+}

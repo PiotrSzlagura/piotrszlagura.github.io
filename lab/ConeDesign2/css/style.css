@@ -1,0 +1,554 @@
+@import "font-awesome.min.css";
+@import "simple-line-icons.css";
+@import url(http://fonts.googleapis.com/css?family=Raleway:300,400,700,800);
+@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:700,400);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic&subset=latin,latin-ext);
+
+@media(min-width: 1000px){
+  .animate-init
+  {
+    visibility: visible;
+  }
+}
+
+body
+{
+  position: relative;
+}
+
+a
+{
+  color: inherit;
+}
+
+a:hover
+{
+  color: inherit;
+}
+
+h1
+{
+  font-family: 'Lato';
+  font-weight: 400; 
+  margin-bottom: 30px;
+}
+
+h2
+{
+  font-family: 'Lato';
+  font-weight: 400; 
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+p
+{
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.break-black
+{
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-color: black;
+
+  width: 100px;
+  margin: 0 auto 15px;
+}
+
+.break-white
+{
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-color: white;
+
+  width: 100px;
+  margin: 0 auto 15px;
+}
+
+.break-white-small
+{
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-color: white;
+
+  width: 50px;
+  margin: 0 auto 15px;
+}
+
+.row
+{
+  max-width: 100%;
+  margin: 0;
+}
+
+#welcome-screen, .choose-language
+{
+  padding: 0;
+  background: url(../img/background.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.welcome-screen-image-wrapper
+{
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+#welcome-screen .go-down
+{
+  width: 100%;
+  height: 100px;
+  position: absolute;
+}
+
+#welcome-screen .go-down .go-down-circle
+{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #aaa;
+  color: #aaa;
+  text-align: center;
+  font-size: 34px; 
+  margin: 0 auto;
+  transition: all 0.25s;
+  -o-transition: all 0.25s;
+  -moz-transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+}
+
+#welcome-screen .go-down .go-down-circle:hover
+{
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+}
+
+.info-container
+{
+  padding: 100px 0;
+}
+
+@media(max-width: 991px){
+  .info-container
+  {
+    padding: 40px 0;
+  }
+}
+
+#informacje
+{
+  /*background: url(../img/wood-4.jpg) no-repeat;
+  background-size: cover;*/
+  background: url(../img/bg/bg_info_95.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: white;
+}
+
+.info-circle
+{
+  width: 125px;
+  height: 125px;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  margin-bottom: 20px;
+  text-align: center;
+
+  transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+
+.info-circle img
+{
+  max-width: 70px;
+  max-height: 70px;
+  margin-top: 27.5px;
+}
+
+.info-circle img.smaller
+{
+  max-width: 60px;
+  max-height: 60px;
+  margin-top: 32.5px;
+}
+
+.info-box:hover
+{
+  cursor: default;
+}
+
+.info-box:hover > .info-circle
+{
+  border: 1px solid #aaa;
+}
+
+.button-white
+{
+  background: transparent;
+  color: white;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 15px;
+  border: 2px solid white;
+  border-radius: 20px;
+
+  transition: all 0.25s;
+  -o-transition: all 0.25s;
+  -moz-transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+}
+
+.button-white:hover
+{
+  background: white;
+  border: 2px solid white;
+  color: black;
+  cursor: pointer;
+}
+
+.button-white.active
+{
+  background: white;
+  border: 2px solid white;
+  color: black;
+  cursor: pointer;
+}
+
+.button-black
+{
+  background: transparent;
+  color: black;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 15px;
+  border: 2px solid black;
+  border-radius: 20px;
+
+  transition: all 0.25s;
+  -o-transition: all 0.25s;
+  -moz-transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+}
+
+.button-black:hover
+{
+  background: black;
+  border: 2px solid black;
+  color: white;
+  cursor: pointer;
+}
+
+.web-development, .proj-graficzne, .l-marketing, #learn-more-text
+{
+  display: none;
+}
+
+#zamow
+{
+  background: url(../img/bg_o_firmie.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+#zamow div, #wspolpraca div
+{
+  color: black;
+  font-size: 24px;
+  margin: 0;
+  padding: 25px 0;
+  background: rgba(255, 255, 255, 0);
+}
+
+#zamow .button-white, #wspolpraca .button-white, #zamow .button-black, #wspolpraca .button-black
+{
+  border-radius: 0;
+}
+
+#ekipa
+{
+  background: url(../img/bg/bg_ekipa.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: white;
+}
+
+.team-wrapper
+{
+  cursor: pointer;
+}
+
+.team-circle
+{
+  width: 175px;
+  height: 175px;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 1px solid #aaa;
+  margin-bottom: 20px;
+
+  transition: background 0.5s, border 0.5s;
+  -o-transition: background 0.5s, border 0.5s;
+  -moz-transition: background 0.5s, border 0.5s;
+  -webkit-transition: background 0.5s, border 0.5s;
+}
+
+.team-wrapper:hover > .team-circle
+{
+  background: white;
+  border: 1px solid transparent;
+}
+
+.team-circle .team-image
+{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.team-circle .team-image.michal
+{
+  background: url(http://conedesign.pl/img/team/michal_2.png) no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.team-circle .team-image.piotr
+{
+  background: url(http://conedesign.pl/img/team/piotrek.png) no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.team-circle .team-image.marcin
+{
+  background: url(http://conedesign.pl/img/team/marcin_2.png) no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#wspolpraca
+{
+  background: url(../img/board.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+#kontakt
+{
+  background: url(../img/bg/bg_kontakt.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: white;
+}
+
+.kontakt-box
+{
+  height: 100px;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.kontakt-box .kontakt-icon
+{
+  width: 100px;
+  height: 100%;
+  border-right: 2px solid #aaa;
+  float: left;
+  text-align: center;
+  line-height: 100px;
+  font-size: 60px;
+}
+
+.kontakt-box .kontakt-content
+{
+  height: 100%;
+  float: left;
+  padding-left: 20px;
+  line-height: 90px;
+  font-size: 24px;
+}
+
+@media(max-width: 413px){
+  .kontakt-box
+  {
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 100px;
+  }
+  .kontakt-box .kontakt-icon
+  {
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid #aaa;
+    border-right: none;
+    float: none;
+    text-align: center;
+    line-height: 100px;
+    font-size: 60px;
+  }
+  .kontakt-box .kontakt-content
+  {
+    height: 100%;
+    width: 100%;
+    float: none;
+    padding-left: 0;
+    line-height: 90px;
+    font-size: 24px;
+    text-align: center;
+  }
+}
+
+footer
+{
+  background: #112F50;
+  color: #ccc;
+  padding: 20px;
+}
+
+.loading-screen
+{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+    top: 0; left: 0; z-index: 100;
+  background: url(../img/ConeDesign_Background.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.scrollowanie
+{
+  position: fixed;
+  z-index: 999;
+  right: 0;
+}
+
+.scrollowanie a:hover
+{
+  background: transparent !important;
+}
+
+.scrollowanie .scroll-circle
+{
+  width: 10px;
+  height: 10px;
+  background: #999;
+  display: inline-block;
+  border-radius: 50%;
+
+  transition: background 1s;
+}
+
+.scrollowanie li.active > a > .scroll-circle
+{
+  background: white;
+}
+
+.inside-lang-change
+{
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 999;
+  width: 60px;
+  height: 40px;
+  padding-top: 10px;
+}
+
+.inside-lang-change img
+{
+  max-width: 40px;
+  max-height: 40px;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+
+  transition: all 0.5s;
+}
+
+.inside-lang-change img:hover
+{
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+}
+
+.portfolio-item
+{
+  min-height: 300px;
+  max-height: 300px;
+  margin-top: 20px;
+}
+
+.portfolio-inside
+{
+  width: 100%;
+  height: 300px;
+  background: rgba(0, 0, 0, 0.9);
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.portfolio-inside:hover
+{
+  opacity: 1;
+  cursor: pointer;
+}
+
+.portfolio-description
+{
+  padding-top: 75px;
+}
+
+.portfolio-example
+{
+  background: url(http://placehold.it/350x300) no-repeat;
+  background-size: cover;
+}
+
+.portfolio-citicon
+{
+  background: url(../img/portfolio/citicon.jpg) no-repeat;
+  background-size: cover;
+}
+
+.portfolio-people
+{
+  background: url(../img/portfolio/people.jpg) no-repeat;
+  background-size: cover;
+}
+
+.portfolio-regipio
+{
+  background: url(../img/portfolio/regipio.jpg) no-repeat;
+  background-size: cover;
+}
+
+.portfolio-silni
+{
+  background: url(../img/portfolio/silni.jpg) no-repeat;
+  background-size: cover;
+}
+
+.portfolio-visus
+{
+  background: url(../img/portfolio/visus_wizytowka.jpg) no-repeat;
+  background-size: cover;
+}
+
+a
+{
+  text-decoration: none !important;
+}

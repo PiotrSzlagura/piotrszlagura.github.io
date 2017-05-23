@@ -1,0 +1,48 @@
+.portfolio
+{
+  padding-top: 0;
+}
+
+.portfolio .row
+{
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+}
+
+.portfolio .row > .col-xs-3
+{
+  padding: 0;
+}
+
+.portfolio-grid-item
+{
+  min-height: 300px;
+}
+
+.portfolio-grid-item:hover
+{
+  cursor: pointer;
+}
+
+.portfolio-item-caption
+{
+  position: absolute;
+  top: calc(50% + 30px);
+  height: 20px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.95);
+  transition: opacity 0.5s, top 0.5s;
+  -o-transition: opacity 0.5s, top 0.5s;
+  -moz-transition: opacity 0.5s, top 0.5s;
+  -webkit-transition: opacity 0.5s, top 0.5s;
+  opacity: 0;
+}
+
+.portfolio-item-caption.show
+{
+  top: 50%;
+  opacity: 1;
+}

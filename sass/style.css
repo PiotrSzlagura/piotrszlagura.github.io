@@ -1,0 +1,104 @@
+@import url(font-awesome.min.css);
+@import url(simple-line-icons.css);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic&subset=latin,latin-ext);
+@media (min-width: 1000px) {
+  .animate-init {
+    visibility: visible; } }
+
+.row {
+  max-width: 100%; }
+
+body {
+  position: relative;
+  font-family: "Montserrat", "Lato", "Open Sans"; }
+
+a, a:hover {
+  color: inherit; }
+
+h1, h2 {
+  font-family: "Montserrat", "Lato";
+  font-weight: 400; }
+
+h1 {
+  margin-bottom: 30px; }
+
+h2 {
+  margin-bottom: 15px;
+  font-size: 24px; }
+
+p {
+  margin-top: 20px;
+  line-height: 1.75em;
+  font-size: 18px; }
+
+#welcome-screen {
+  background: url(../img/Background_Main.jpg) no-repeat;
+  background-size: cover;
+  text-align: center;
+  position: relative; }
+  #welcome-screen img {
+    max-width: 100%; }
+  #welcome-screen .go-down {
+    position: absolute;
+    bottom: 100px;
+    width: 100%; }
+    #welcome-screen .go-down .go-down-circle {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: 2px solid #aaa;
+      color: #aaa;
+      text-align: center;
+      font-size: 34px;
+      margin: 0 auto;
+      -webkit-transition: all 0.25s;
+      -moz-transition: all 0.25s;
+      -o-transition: all 0.25s;
+      transition: all 0.25s; }
+      #welcome-screen .go-down .go-down-circle:hover {
+        border: 2px solid white;
+        color: white;
+        cursor: pointer; }
+
+.info-container {
+  padding: 150px 0; }
+
+#about-me {
+  background: #05100D;
+  color: white; }
+
+.site-navigation-wrapper {
+  height: 50px; }
+
+.site-navigation {
+  width: 100%;
+  background: black;
+  z-index: 1000;
+  color: white;
+  font-size: 20px;
+  overflow: hidden;
+  height: 50px;
+  position: relative; }
+  .site-navigation .site-links-wrapper {
+    background: black;
+    height: 100%;
+    z-index: 9999; }
+    .site-navigation .site-links-wrapper .site-link {
+      width: 25%;
+      float: left;
+      text-align: center;
+      border-top: 3px solid transparent;
+      color: #444;
+      padding: 7px 0 12px;
+      cursor: pointer;
+      -webkit-transition: all 0.25s;
+      -moz-transition: all 0.25s;
+      -o-transition: all 0.25s;
+      transition: all 0.25s; }
+      .site-navigation .site-links-wrapper .site-link:hover, .site-navigation .site-links-wrapper .site-link.active {
+        color: white;
+        border-color: #1DBD68; }
+
+/*# sourceMappingURL=style.css.map */

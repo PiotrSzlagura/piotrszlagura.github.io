@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic&subset=latin,latin-ext);
+
+body
+{
+	font-family: 'Lato';
+}
+
+/* SASS Variables and mixins */
+
+@import "mixins";
+@import "variables";
+
+/* General elements */
+
+@import "partials/navbar";
+@import "partials/best-products";
+@import "partials/usage-informations";
+@import "partials/footer";
+@import "partials/breadcrumbs";
+
+/* Only main page elements */
+
+@import "partials/welcome-banner";
+@import "partials/partfinder";
+@import "partials/discounts";
+@import "partials/product-tabs";
+@import "partials/brands";
+
+/* Pages */
+
+@import "partials/pages/product-page/general";
